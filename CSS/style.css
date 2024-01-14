@@ -25,9 +25,9 @@ body{
 }
 
 .container .content .title{
-    background: linear-gradient(to right, #0d0da3c5, #8102b8 90%);
+    background: linear-gradient(to right, #0d0da3c5, #8102b8 30%);
     width: 100%;
-    height: 80px;
+    height: 85px;
     margin-bottom: 20px;
     display: flex;
     align-items: center;
@@ -43,8 +43,7 @@ body{
 
 
 .container .content form{
-    background-color: #8102b8;
-    height: 100px;
+    height: 110px;
     width: 100%;
     display: inline-block;
     display: flex;
@@ -54,11 +53,10 @@ body{
 
 
 .container .content form input{
-    height: 40px;
+    height: 45px;
     width: 90%;
     margin: 5px 0;
-    border: none;
-    outline: none;
+    border: 1px solid #00000023;
     border-radius: 25px;
     padding-left: 15px;
 }
@@ -87,8 +85,8 @@ body{
 
 
 .container .content .button input{
-    background: linear-gradient(to right, #0d0da3c5, #8102b8 90%);
-    height: 40px;
+    background: linear-gradient(to right, #0d0da3c5, #8102b8 30%);
+    height: 45px;
     width: 90%;
     text-align: center;
     font-size: 18px;
@@ -98,6 +96,7 @@ body{
     border: none;
     border-radius: 25px;
     padding-left: 15px;
+    cursor: pointer;
 }
 
 .container .content .button{
@@ -105,6 +104,28 @@ body{
     align-items: center;
     flex-direction: column;
 }
+
+.container .content .sing{
+    width: 90%;
+    margin: 5px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container .content .sing a{
+    text-decoration-line: none;
+    color: rgb(8, 8, 154);
+    
+}
+
+.container .content .sing a:hover{
+    text-decoration-line:underline;
+}
+
+
+
 
 
 
