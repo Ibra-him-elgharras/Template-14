@@ -17,10 +17,11 @@ body{
 }
 
 .container{
-    background-color: rgba(63, 63, 113, 0.325);
+    background-color: #fff;
     width: 25%;
-    height: 70%;
+    height: 60%;
     border-radius: 10px;
+    box-shadow: 0 2px 2px 2px #00000041;
 }
 
 .container .content .title{
@@ -61,6 +62,51 @@ body{
     border-radius: 25px;
     padding-left: 15px;
 }
+
+.container .content .info-pass{
+    width: 90%;
+    margin: 5px auto;
+    display: flex;
+    align-items: center;
+}
+
+
+.container .content .info-pass .rembr{
+    margin-right: 30px;
+}
+
+.container .content .info-pass a{
+    margin-left: 30px;
+    text-decoration-line: none;
+    color: rgb(8, 8, 154);
+}
+
+.container .content .info-pass a:hover{
+    text-decoration-line:underline;
+}
+
+
+.container .content .button input{
+    background: linear-gradient(to right, #0d0da3c5, #8102b8 90%);
+    height: 40px;
+    width: 90%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    margin: 10px 0 20px ;
+    border: none;
+    border-radius: 25px;
+    padding-left: 15px;
+}
+
+.container .content .button{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
 
 
 
