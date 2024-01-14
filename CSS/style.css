@@ -17,7 +17,8 @@ body{
 }
 
 .container{
-    background-color: blue;
+    background-color: rgba(63, 63, 113, 0.325);
     width: 25%;
     height: 70%;
+    border-radius: 10px;
 }
